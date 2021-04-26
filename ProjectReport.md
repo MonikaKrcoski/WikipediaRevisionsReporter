@@ -16,33 +16,35 @@ Please remove this subsection before submitting your report.
 
 ## Challenge #1 Complete
 
-(Explain your solution to Challenge #1. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+In the class QueryEngineModule I changed FakeQueryEngine to a WikipediaAnalyzer.
 
 ## Challenge #2 Complete
 
-(Explain your solution to Challenge #2. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+I added an interface called Projectinterface and implemented it in the RevisionFormatter class
+after that I fixed up the format of the time stamp to make what you are reading make more sense
+ to the viewer.
+
 
 ## Challenge #3 Complete
 
-(Explain your solution to Challenge #3. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+In the wikipediaAnalyzer class I first commented out the for loop and replaced it then replaced it with a 
+line of code and eventually just erased the for loop.
 
 ## Reflection Question #1: Functional vs OO
 
-(Write one or more paragraphs comparing and contrasting the iterative and functional  
-approaches to string concatenation you explored in challenge #3. Which do you
-prefer, and why?)
+In functional programing, recursion is often used for iterative data whereas in OO,
+we use loops for iterative data. When we concatenated the for loop in challenge 3 I used
+functional data because it was more efficient that using the for loop. I prefer functional
+approaches because they tend to be more efficient when working.
+
 
 ## Reflection Question #2: Polymorphism and Dependency Inversion
 
-(Explain how polymorphism engendered dependency inversion in this little
-application. Be clear and precise here, as this is, in part, an assessment of
-your correct use of technical terminology.
-Consider, for example, where exactly is polymorphism used?
-Where exactly is a dependency inverted?)
+Polymorphism helps do one task in many ways by overriding which is sometimes convenient depending 
+on what you are coding. We see this in challenge 2 where we have to override in the RevisionFormatter
+class. It engendered the dependency inversion because dependency inversion is providing dependencies from 
+a class outside rather than having a class create its own dependencies which is not what we did by using
+polymorphism.
+
+
 
